@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+.container .cards{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.container .cards .card-left{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 930px;
+    background-color:black ;
+    background: linear-gradient(45deg, #0d0327, #3b0e8f  );
+    user-select: none;
+
+
+}
+.container .cards .card-left div{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
+
+
+.container .cards .card-right{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    padding:50px ;
+    margin: 10px auto;
+}
+.container .cards .card-right .head-text{
+    width: 100%;
+}
+.container .cards .card-right .head-text h2{
+    color: #1376f7;
+    font-size: 40px;
+    font-weight: 500;
+}
+.container .cards .card-right .head-text h4{
+    color: #1376f7;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.container .cards .card-right .inputs{
+    width: 100%;
+    margin-top: 20px;
+}
+.container .cards .card-right .inputs input{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+    color: #2699fb;
+    font-weight: 700;
+    height: 50px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #93ccdf;
+    transition: box-shadow 0.1s ease-in;
+    transition: transform 0.1s ease-in;
+}
+::placeholder{
+    color: #93ccdf;
+    font-size: 15px;
+}
+.container .cards .card-right .inputs input:focus{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 0px;
+    transform: scale(1.03);
+}
+
+.container .cards .card-right .buttons{
+    width: 100%;
+    margin-top: 55px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.container .cards .card-right .buttons button, .j1k236{
+    margin: 7px 0;
+}
+.container .cards .card-right .buttons .j1k236{
+    color: #2699fb;
+    font-size: 17px;
+    font-weight: 500;
+}
+.container .cards .card-right .buttons button{
+    width: 80%;
+    border: none;
+    outline: 0;
+    border-radius: 0;
+    background: #2699fb;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+.container .cards .card-right .buttons .kayit-btn{
+    border: 2px solid #2699fb ;
+    background: white;
+    color: #2699fb;
+}
+.container .cards .card-right .buttons .frgt{
+    text-align: right;
+    width: 90%;
+    margin: 7px 0;
+}
+.container .cards .card-right .buttons .frgt a{
+    color: #2699fb;
+    text-decoration: none;
+}
+.container .cards .card-right .buttons .frgt a i{
+    color: #2699fb;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+
+
+.footer{
+margin-top:300px ;
+}
